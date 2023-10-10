@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Headings */
+h1 {
+  background-color: chocolate ;
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+.container {
+  width: 100%; 
+  padding: 20px;
+  font-size: 1.2em; 
+}
+p {
+  font-size: 20px;
+  line-height: 1.9em;
+  margin-left: 9%;
+  padding: 10px;
+}
+div {
+  padding: 20px;
+  margin: 10px;
+  border: 3px blue;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'open sans',sans-serif;
+}
+a:hover {
+  color: red; /*changelink color on hover */
+
+}
+:root {
+  --primary-color:chocolate;
+    --font-size-medium: 16px;
+}
+.button {
+  background-color: var(--primary-color);
+    color: rgb(25, 22, 36);
+    padding: 10px 20px;
+}
+.button--large {
+  font-size: 1.6rex;
+
+}
+
+
+
